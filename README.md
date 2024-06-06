@@ -1,8 +1,8 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __Oslo__. 
 
-Section: __Fill your class section__. 
+Section: __2__. 
 
 Team Mates:
 1. __Aisyah Afiqah binti Zalamin__ and __2211826__
