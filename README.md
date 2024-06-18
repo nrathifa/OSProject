@@ -342,26 +342,37 @@ flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov 
 top - 07:45:15 up 22 min,  0 users,  load average: 0.12, 0.17, 0.29
 Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  3.9 us,  3.5 sy,  0.0 ni, 92.4 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
-MiB Mem :   7929.6 total,    152.5 free,   1394.0 used,   6383.1 buff/cache
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6155.8 avail Mem 
+top - 08:41:30 up  1:19,  0 users,  load average: 0.10, 0.13, 0.11
+Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  2.0 sy,  0.0 ni, 95.2 id,  0.3 wa,  0.0 hi,  0.0 si
+MiB Mem :   7929.6 total,    366.7 free,   1402.6 used,   6160.2 buff/
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6146.1 avail
 
-    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                
-    557 codespa+  20   0   21.5g 340136  49920 S   1.3   4.2   0:32.59 node                   
-   7019 codespa+  20   0 1107532  64504  42112 S   0.7   0.8   0:00.89 node                   
-   1625 root      20   0 1798832  46576  30720 S   0.3   0.6   0:00.38 containerd
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM 
+    557 codespa+  20   0   21.5g 339260  49920 S   1.3   4.2 
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0 
+      7 codespa+  20   0    7236   1792   1792 S   0.0   0.0 
+     22 root      20   0   12196   3312   2432 S   0.0   0.0 
+    339 codespa+  20   0    2616   1408   1408 S   0.0   0.0 
+    370 root      20   0    2616   1408   1408 S   0.0   0.0 
+    526 codespa+  20   0    2624   1664   1664 S   0.0   0.0 
+    535 codespa+  20   0 1318104  95548  45184 S   0.0   1.2 
+    571 codespa+  20   0 1240564  54548  41216 S   0.0   0.7 
+   1013 codespa+  20   0 1014040  74760  40704 S   0.0   0.9 
+   1133 codespa+  20   0    2616   1408   1408 S   0.0   0.0
 ```
 10. Run the command **uname -a**. ***(1 mark)*** 
 ```bash
 @nrathifa ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-94d808 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** __<br>Answer: 6.0Gi__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __<br>Answer: 20771112 KB__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __<br>Answer: Linux codespaces-94d808 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __<br>Answer: ls lists file and directory names, while ls -asl lists all files (including hidden ones) with detailed information such as permissions, size, and timestamps__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __<br>Answer: 2560 4K pages__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __<br>Answer: 3020.193 MHz__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __<br>Answer: 557__.
 
 ## Running your own container instance.
 
