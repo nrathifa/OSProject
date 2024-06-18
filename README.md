@@ -6,7 +6,7 @@ Section: __2__.
 
 Team Mates:
 1. __Aisyah Afiqah binti Zalamin__ and __2211826__
-2. __Haziqah binti Sairin__ and __221__
+2. __Haziqah binti Sairin__ and __2218818__
 3. __Nur Athifa Elysha binti Suhaimi__ and __2219320__
 
 ## Rules
