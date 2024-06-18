@@ -463,7 +463,7 @@ __<br>Answer: No file found.__
     //use sudo and chown
     sudo chown -R codespace:codespace myroot
 ```
-*** __<br>Answer: Yes. The permission of the files to user codespace can be change but there is no such file or directory found__.***
+    __<br>Answer: Yes. The permission of the files to user codespace can be change but there is no such file or directory found__.
     ```bash
     @nrathifa ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace myroot
     chown: cannot access 'myroot': No such file or directory
