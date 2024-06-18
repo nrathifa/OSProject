@@ -464,7 +464,7 @@ total 0
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __<br>Answer: Yes. The permission of the files to user codespace can be change but there is no such file or directory found.__.***
+*** __<br>Answer: Yes. The permission of the files to user codespace can be change but there is no such file or directory found__.***
 ```bash
 @nrathifa ➜ /workspaces/OSProject/myroot (main) $ sudo chown -R codespace:codespace myroot
 chown: cannot access 'myroot': No such file or directory
@@ -494,9 +494,13 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)***
+```bash
+@nrathifa ➜ /workspaces/OSProject/myroot (main) $ ls -ld /workspaces/OSProject/webpage
+drwxrwxrwx+ 2 codespace codespace 4096 Jun 18 13:33 /workspaces/OSProject/webpage
+```
+2. What port is the apache web server running. ***(1 mark)*** __<br>Answer: The Apache web server is running on port 80 inside the container__.
+3. What port is open for http protocol on the host machine? ***(1 mark)*** __<br>Answer: The open port for HTTP protocol on the host machine is 8080__.
 
 ## Create SUB Networks
 
