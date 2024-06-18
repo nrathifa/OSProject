@@ -541,7 +541,7 @@ __<br>C2: 172.19.0.2__
 ```bash
 @nrathifa ➜ /workspaces/OSProject/myroot (main) $ docker exec c1 ping c2
 ping: bad address 'c2'
-```
+``` __.
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
