@@ -24,8 +24,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/nrathifa/OSProject.git__.
-2. How many files and folders are in this repository. ***(1 mark)*** __One folder images that consist of 6 files in it and one file which is readme file__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __<br>Answer: https://github.com/nrathifa/OSProject.git__.
+2. How many files and folders are in this repository. ***(1 mark)*** __,<br>Answer: One folder images that consist of 6 files in it and one file which is readme file__.
 
 
 ## Exploring github codespaces
@@ -57,11 +57,12 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __<br>Answer: Ubuntu__.
 2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+__<br>Answer:__
 __<br>Option 1: 2-core CPU, 4 GB RAM, 32 GB disk and__
 __<br>Option 2: 4-core CPU, 8 GB RAM, 64 GB disk__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Committing and syncing work on source control ensures changes are saved, versioned, and accessible to all team members for collaboration__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __<br>Answer: Committing and syncing work on source control ensures changes are saved, versioned, and accessible to all team members for collaboration__.
 
 ## Exploring the Terminal
 
