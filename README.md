@@ -537,11 +537,11 @@ __<br>Rednet: 172.19.0.1__
 __<br>Answer:__
 __<br>C1: 172.18.0.2__
 __<br>C2: 172.19.0.2__
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __<br>Answer: No
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __<br>Answer: No__.
 ```bash
 @nrathifa ➜ /workspaces/OSProject/myroot (main) $ docker exec c1 ping c2
 ping: bad address 'c2'
-``` __.
+```
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
